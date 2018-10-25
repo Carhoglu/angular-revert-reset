@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs">
+      <ul>
+        <li *ngFor="let item of customer">
+            {{item}} 
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs">
+      <ul>
+        <li *ngFor="let user of userTestStatus">
+            {{user.id}} {{user.name}} 
+        </li>
+      </ul>
+      <ul>
+        <li *ngFor="let obj of objectArray">
+            {{obj.name}} {{obj.surname}} 
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

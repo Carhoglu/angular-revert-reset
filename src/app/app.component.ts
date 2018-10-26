@@ -7,4 +7,6 @@ import { Customer } from './customer.model';
 })
 export class AppComponent {
   title = 'arrayTypes';
+
+  
 }
